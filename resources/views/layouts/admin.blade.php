@@ -335,11 +335,6 @@
 
 
 
-
-                <h1>Admin</h1>
-
-
-
                 @yield('content')
             </div>
             <!-- /.col-lg-12 -->
