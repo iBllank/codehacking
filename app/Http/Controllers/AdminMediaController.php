@@ -49,7 +49,7 @@ class AdminMediaController extends Controller
         unlink(public_path() . $photo->file);
 
         $photo->delete();
-        
+
         return redirect('/admin/media');
 
 

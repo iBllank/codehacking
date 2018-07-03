@@ -55,7 +55,7 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="/">B L <span style="color: red">A</span> N K</a>
-            <span class="navbar-brand">Adminstrator Panel</span>
+            <span class="navbar-brand">Administrator Panel</span>
 
         </div>
         <!-- /.navbar-header -->
@@ -136,7 +136,6 @@
                     </li>
 
                     <li>
-                        <a href="#"><i class="fa fa-wrench fa-fw"></i>Users<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
                                 <a href="{{route('admin.users.index')}}">All Users</a>
@@ -151,7 +150,6 @@
                     </li>
 
                     <li>
-                        <a href="#"><i class="fa fa-wrench fa-fw"></i> Posts<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
                                 <a href="{{route('admin.posts.index')}}">All Posts</a>
@@ -167,10 +165,9 @@
 
 
                     <li>
-                        <a href="#"><i class="fa fa-wrench fa-fw"></i>Categories<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="{{route('admin.categories.index')}}">All Categories</a>
+                                <a href="{{route('admin.categories.index')}}">Categories</a>
                             </li>
 
                         </ul>
@@ -179,7 +176,6 @@
 
 
                     <li>
-                        <a href="#"><i class="fa fa-wrench fa-fw"></i>Media<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
                                 <a href="{{route('admin.media.index')}}">All Media</a>
