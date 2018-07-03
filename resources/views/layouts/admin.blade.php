@@ -26,7 +26,7 @@
 
     <style type="text/css">
 
-        table td {
+        table {
             text-align: center;
         }
 
