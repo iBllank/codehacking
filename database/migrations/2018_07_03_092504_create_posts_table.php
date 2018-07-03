@@ -20,6 +20,13 @@ class CreatePostsTable extends Migration
             $table->string('title');
             $table->text('body');
             $table->timestamps();
+
+
+
+            // when user is deleted deleted related posts etc
+            // not migrated
+//            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
+
         });
     }
 
