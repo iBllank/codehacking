@@ -37,10 +37,10 @@
         }
 
         .title {
-            font-size: 150px;
+            font-size: 120px;
         }
         .title2{
-            font-size: 80px;
+            font-size: 65px;
         }
     </style>
 </head>
@@ -49,6 +49,9 @@
     <div class="content">
         <div class="title">4 0 4</div>
         <div class="title2">Page Not Found</div>
+        <form>
+            <input type="button" value="Return Home" onclick="window.location.href='/'" />
+        </form>
     </div>
 </div>
 </body>
