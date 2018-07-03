@@ -19,7 +19,7 @@ Route::auth();
 
 Route::get('/home', 'HomeController@index');
 
-
+Route::get('/post/{id}',['as'=>'home.post','uses'=>'AdminPostsController@post']);
 
 
 
@@ -44,6 +44,10 @@ Route::resource('admin/posts','AdminPostsController');
 Route::resource('admin/categories','AdminCategoriesController' );
 
 Route::resource('admin/media','AdminMediaController');
+
+Route::resource('admin/comments','PostsCommentsController');
+
+Route::resource('admin/comment/replies','CommentRepliesController');
 
 });
 

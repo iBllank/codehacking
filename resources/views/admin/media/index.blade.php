@@ -4,8 +4,6 @@
 
 @section('content')
 
-    <h1>Media</h1>
-
     <table class="table table-bordered">
         <thead>
         <tr>

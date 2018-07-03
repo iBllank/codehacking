@@ -9,8 +9,7 @@
 
 
 @section('content')
-
-    <h1>Upload Media</h1>
+    <h1 class="text-center">Upload Media</h1>
 
     {!! Form::open(['method'=>'POST', 'action'=>'AdminMediaController@store', 'class'=>'dropzone']) !!}
 
