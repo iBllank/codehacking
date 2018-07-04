@@ -47,15 +47,21 @@ Route::resource('admin/media','AdminMediaController');
 
 Route::resource('admin/comments','PostsCommentsController');
 
-Route::resource('admin/comment/replies','CommentRepliesController');
+Route::resource('admin/comment/replies','CommentReplyController');
 
 });
 
 
 
 
+Route::group(['middleware'=>'auth'],function (){
 
 
+    Route::post('comment/reply','CommentReplyController@createReply');
+
+
+
+});
 
 
 
